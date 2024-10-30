@@ -1,0 +1,55 @@
+#hbcode{
+    width: 30%;
+    min-width: 150px;
+
+}
+
+.HBflex {
+    display: flex;
+    height: 300px;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+
+.HBitem {
+    flex: 0 0 30%;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 1rem 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.HBitem div,
+.HBbox
+{
+    text-align: center;
+}
+.HBtimes{
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+
+}
+.HBName{
+    color: #664d03;
+    background-color: #fff3cd;
+    border-color: #ffecb5;
+}
+.HB-alert{
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.HB-alert-error{
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+}
+

@@ -1,0 +1,105 @@
+mark.hb-order-status{
+    display: inline-flex;
+    line-height: 2.5em;
+    color: #777;
+    background: #e5e5e5;
+    border-radius: 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    margin: -.25em 0;
+    cursor: inherit !important;
+    white-space: nowrap;
+    max-width: 100%;
+    padding: 0 10px;
+
+}
+
+mark.HBDisabled{
+
+}
+mark.HBEnable {
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+
+}
+mark.HBDisabled{
+
+}
+mark.HBTimeout{
+    color: #664d03;
+    background-color: #fff3cd;
+    border-color: #ffecb5;
+}
+mark.HBClosed{
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+}
+.HBPRC input[type='checkbox']{
+    margin-left: 8px;
+}
+#HB-product table {
+    border-collapse: collapse;
+    width: 50%;
+
+}
+
+#HB-product td,
+#HB-product th {
+    border: 1px solid #bbb;
+    text-align: center;
+    padding: 8px;
+
+}
+
+#HB-product tr:nth-child(even) {
+    background-color: #dddddd;
+}
+#HBsecurity{
+    width: 50%;
+    color: #2b2b2b;
+}
+.HBSecurity-Code-List a,
+.HBSecurity-Code-Generate a,
+.HBSecurity-Code-Setting a
+{
+    text-decoration: none;
+    color: #2b2b2b;
+    font-size: 1.1rem;
+}
+
+.HBSecurity-Code-List,
+.HBSecurity-Code-Generate,
+.HBSecurity-Code-Setting
+{
+    padding: 10px 15px;
+
+    color: #2b2b2b;
+    border: 1px solid #ccc;
+    border-bottom:0 ;
+    margin-right: -1px;
+    display: inline;
+}
+
+.HBSecurity-Code-List-Active
+{
+    background: #dcdcde;
+}
+#wpbody{
+    margin-top: 30px;
+}
+.HB-Security-Code input[type='checkbox']{
+    margin-left: 8px;
+}
+.HB-alert{
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.HB-alert-success{
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}
